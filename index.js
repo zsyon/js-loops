@@ -10,3 +10,9 @@ const person = [{
   }
 ];
 
+let age = person.filter(user => user.age > 30);
+console.log(age)
+
+let language = person.filter((user,index) => user.languages[index] == "JavaScript");
+console.log(language)
+
